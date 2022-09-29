@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body{
+  background-image: url("https://i.pinimg.com/564x/91/64/39/916439405de244b4b8fe95142ac6fb8e.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.post { 
+  padding: 20px;
+  width: 200px;
+  height: 140px;
+  background-color: rgb(6, 128, 128);
+  margin-bottom: 10px;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  display: none;
+}
+.overlay.active {
+  display: block;
+}
+.close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.postbodyclass {
+  text-align: center;
+  justify-content: center;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left:5px;
+  margin-top: 40px;
+  
+  
+}
+
+
+.add-btn{
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  color: green;
+  font-size: 60px;
+  cursor: pointer;
+}
+.add-btn:hover{
+  color: darkgreen;
+}
+
+.overlay-after-add{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  background-image: url("https://i.pinimg.com/564x/8a/1e/6e/8a1e6e192365823f477833b9ca94907a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: none;
+}
+.overlay-after-add.addactive{
+  display: block;
+}
+
+.overlay-form{
+  font-size: 20px;
+  display: flex;
+  border: 4px solid rgba(18, 16, 131, 0.432);
+  width: 300px;
+  align-items: center;
+
+}
+#formid{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#submit{
+  color: green;
+}
+#submit:hover{
+  color: darkgreen;
+}
+
+#formtitle{
+  margin-right: 10px;
+}

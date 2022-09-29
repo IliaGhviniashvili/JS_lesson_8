@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div id="posts" class="posts">
+            <div class="overlay" id="overlay">
+                <div class="postcontent" id="postcontent"></div>
+                <div class="close" id="close">X</div>
+            </div>
+
+            <div class="add-btn" id="add-btn"><i class="fa-solid fa-folder-plus"></i></div>
+            <div class="overlay-after-add" id="overlay-after-add">
+                <div id="formid">
+             <form action="" class="overlay-form" id="overlay-form" method="post">
+                <div>
+                    <label for="formtitle">Title</label>
+                    <input type="text" name="title" id="formtitle">
+                </div>
+                <button type="submit"><i id="submit" class="fa-solid fa-file-circle-plus fa-3x"></i></button>
+             </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
